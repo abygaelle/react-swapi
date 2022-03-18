@@ -2,6 +2,7 @@
   text-align: center;
   color: white;
   font-family: "Press Start 2P", cursive;
+  font-size: 100px;
 }
 
 .App-logo {
@@ -63,9 +64,8 @@
   font-size: 30px;
 }
 
-#starshipDetails{
-  color:white;
-
+#starshipDetails {
+  color: white;
 }
 body {
   background-image: url(../public/stars1.gif);

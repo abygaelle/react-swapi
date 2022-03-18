@@ -11,17 +11,17 @@ const StarshipList = (props) => {
     <>
       <div class="row">
         <div clas="col s12">
-        <div class="icon-container">
-          {results.map((starship) => (
-            <Link
-              class="card card-panel yellow darken-1 black-text"
-              key={starship.url}
-              state={{ starship }}
-              to="/starship"
-            >
-              <div class="card-body">{starship.name}</div>
-            </Link>
-          ))}
+          <div class="icon-container">
+            {results.map((starship) => (
+              <Link
+                class="card card-panel yellow darken-1 black-text"
+                key={starship.url}
+                state={{ starship }}
+                to="/starship"
+              >
+                <div class="card-body">{starship.name}</div>
+              </Link>
+            ))}
           </div>
         </div>
       </div>
