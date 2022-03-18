@@ -12,11 +12,17 @@ const StarshipPage = (props => {
   }, [])
 return (
   <>
-  <div>
-    <div>{starship.name}</div>
-    <div>{starship.model}</div>
+  <div class="row">
+  <div clas="col s12">
+  <div class="icon-container">
+  <div class="card card-panel card-body yellow darken-1 black-text"id="starshipDetails">
+    <div>NAME: {starship.name}</div>
+    <div>MODEL: {starship.model}</div>
     <Link to="/">Return
     </Link>
+    </div>
+    </div>
+    </div>
   </div>
   </>
   )})

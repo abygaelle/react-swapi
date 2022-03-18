@@ -1,7 +1,7 @@
 .App {
   text-align: center;
-  color:white;
-  font-family: 'Press Start 2P', cursive;
+  color: white;
+  font-family: "Press Start 2P", cursive;
 }
 
 .App-logo {
@@ -52,13 +52,22 @@
   margin: 5px;
   text-transform: uppercase;
   padding: 50px;
+  border-radius: 15px 50px;
 }
 
-.card-body{
+.card :hover {
+  color: #f57f17;
+}
+
+.card-body {
   font-size: 30px;
 }
 
-body{
+#starshipDetails{
+  color:white;
+
+}
+body {
   background-image: url(../public/stars1.gif);
   background-size: 100%;
   align-items: center;
