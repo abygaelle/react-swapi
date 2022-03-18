@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  color:white;
+  font-family: 'Press Start 2P', cursive;
 }
 
 .App-logo {
@@ -49,4 +51,15 @@
   text-align: center;
   margin: 5px;
   text-transform: uppercase;
+  padding: 50px;
+}
+
+.card-body{
+  font-size: 30px;
+}
+
+body{
+  background-image: url(../public/stars1.gif);
+  background-size: 100%;
+  align-items: center;
 }

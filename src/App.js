@@ -8,7 +8,7 @@ function App() {
   return (
     <>
     <h1 className="App">
-      Starships
+      STARSHIPS
     </h1>
     <Routes>
       <Route path="/" element={<StarshipList/>}/>
